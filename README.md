@@ -1,6 +1,6 @@
 # long_get.py
 
-Small python program to do a GET that will timeout because it says it has content which is then not sent. Created to simulate errors seen at arXiv that generated spurious 500 responses which should instead have been 408.
+Small python program to do a GET that will timeout because it says it has content which is then not sent. Created to simulate errors seen at arXiv that generated spurious 500 responses which should instead have been 400/408 or such.
 
 ## Example use
 
